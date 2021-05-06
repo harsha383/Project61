@@ -1,0 +1,155 @@
+body {
+  text-align: center;  
+}
+h1 {
+  text-shadow: 2px 2px #F8BBD0;
+  font-size: 30px;
+  text-decoration: underline;
+}
+#name {
+    font-family: 'Karantina', cursive;
+}
+h2 {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+h3 {
+    color: darkblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+.profile {
+  padding: 10px;
+  width: 200px;
+  border-radius: 50%;
+  border-width: 3px;
+  border-color: blue;
+  border-style: solid;
+}
+p {
+  text-align: justify;
+  color: #5E35B1;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.line {
+   height: 4px; 
+   background-color: #000; 
+   width: 80px; 
+   margin: 8px auto;
+}
+#bio {
+  background: linear-gradient(#833ab4 0%, #fd1d1d 50%, #fcf145 100%);
+  background-repeat: no-repeat;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+#welcome {
+    background: linear-gradient(#020024 0%, #090979 35%, #00d4ff 100%);
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu {
+    display: inline;
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: white;    
+}
+li {
+    display: inline;
+    background-color: aqua;
+    border-style: solid;
+    border-width: medium;
+    border-color: blue;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: blue;
+    border-style: solid;
+    border-width: medium;
+    border-color: blue;
+}
+.links {
+    padding-top: 5px; 
+    padding-left: 9px; 
+    padding-right: 9px;
+    padding-bottom: 5px; 
+    font-size: 18px;
+}
+.links:hover {
+    background-color: pink;
+    text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: red;
+}
+#favhobby {
+    background: linear-gradient(#2256c3 0%, #2dfdcd 100%); 
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+#work {
+    background: linear-gradient(#e667c1 0%, #0d27aa 100%); 
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.web {
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: medium;
+    border-color: hotpink;
+}
+#inspiration {
+    background: linear-gradient(#f25b24 0%, #e39d81 25%, #ffffff 50%, #3eec46 75%, #0a300f 100%);
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+img {
+    transition: transform .2s;
+    border: 10px solid blue;
+}
+img:hover {
+    transform: scale(0.9)
+}
+.article:hover {
+    font-size: 20px;
+    color: yellow;
+}
+#contact {
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+#myname {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.fa fa-globe {
+    font-size: 20px;
+    color: white;
+}
+#collection {
+   color: darkblue; 
+}
